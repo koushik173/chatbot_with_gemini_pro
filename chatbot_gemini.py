@@ -10,7 +10,7 @@ from langchain_core.language_models.llms import LLM
 from typing import Any, List, Mapping, Optional
 
 import google.generativeai as genai
-genai.configure(api_key='AIzaSyCGY61i9F2nnJdkKLmiRNfdY5XRzyTnv28')
+genai.configure(api_key='')
 
 class GeminiProLLM(LLM):
     @property
